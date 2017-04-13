@@ -65,7 +65,7 @@ module.exports = function config (level) {
       'no-invalid-this': 'error',                                             // preference
       'no-loop-func': levelSetting,                                                // preference
       'no-lonely-if': levelSetting,                                                // preference
-      'no-magic-numbers': [levelSetting, { ignore: [-1, 0, 1] }],                  // preference - better naming
+      'no-magic-numbers': [levelSetting, { ignore: [-1, 0, 1, 2, 100] }],          // preference - better naming
       'no-mixed-spaces-and-tabs': levelSetting,
       'no-multi-spaces': levelSetting,
       'no-multi-str': levelSetting,
